@@ -6,18 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
     <main>
+
         <section id="login">
             <div id="imagem">
+                <img id="retrado" src="imagens/6794630.png" alt="personagem">
+                <img id="paisagem" src="imagens/6794640.png" alt="personagem1">
 
             </div>
-
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo!</p>
                 <form action="login.php" method="post">
+
+                    <label for="iusuario">Usuario:</label>
+                    <input type="text" name="usuario" id="iusuario" required>
+
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="Senha" id="isenha" required>
+
+                    <input type="submit" value="Login">
 
                 </form>
 
