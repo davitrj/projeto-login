@@ -10,7 +10,8 @@
 }
 
 body, html {
-    background-color: rgb(255, 247, 130);
+    background-image: url(../imagens/back1.jpg);
+    background-size: cover;
     height: 100vh;
     width: 100vw;
 
@@ -43,10 +44,14 @@ section#login {
 
 div#formulario {
     text-align: center;
-    padding: 20px 10px;
+    padding: 50px 30px;
     display: block;
 }
 
 div#formulario > h1 {
-    padding-bottom: 5px;
+    padding: 2px 0 20px 0;
+}
+
+div#formulario > p {
+    padding: 2px 0 20px 0;
 }
