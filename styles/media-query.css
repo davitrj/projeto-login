@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     
     div#imagem > img#retrado {
         display: block;
@@ -15,16 +15,14 @@
         
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 851px) and (max-width: 992px) {
     section#login {
-        width: 80vw;
+        width: 90vw;
     }
 
     div#imagem  > img#paisagem {
         display: block;
         width: 551px;
-        height: px;
         position: absolute;
         margin-top: -80px;
 
@@ -32,14 +30,14 @@
 
     div#formulario {
         float: right;
-        width: 50%;
+        max-width: 50%;
         height: 100%;
     }
 }
 
 @media screen and (min-width: 992px) { 
     section#login {
-    width: 800px;
+    width: 850px;
     }
 
     div#imagem  > img#paisagem {
