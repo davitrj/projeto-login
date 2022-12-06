@@ -10,27 +10,50 @@
         position: absolute;
         margin-top: -109px;
         position: fixed;
-        filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.514));
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.514));
         }
         
-    }
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
-        width: 90vw;
+        width: 80vw;
     }
 
-    div#imagem > img#paisagem {
+    div#imagem  > img#paisagem {
         display: block;
-        max-width: 45%;
-        background-size: cover;
+        width: 551px;
+        height: px;
         position: absolute;
+        margin-top: -80px;
+
     }
 
     div#formulario {
         float: right;
-        width: 30%;
-        padding: 30px;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    section#login {
+    width: 800px;
+    }
+
+    div#imagem  > img#paisagem {
+        display: block;
+        width: 551px;
+        height: px;
+        position: absolute;
+        margin-top: -80px;
+
+    }
+
+    div#formulario {
+    float: right;
+    width: 50%;
+    height: 100%;
     }
 }

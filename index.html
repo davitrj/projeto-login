@@ -14,7 +14,7 @@
         <section id="login">
             <div id="imagem">
                 <img id="retrado" src="imagens/6794630.png" alt="personagem">
-                <img id="paisagem" src="imagens/menino2.jpg" alt="personagem1">
+                <img id="paisagem" src="imagens/menino3.png" alt="personagem1">
 
             </div>
             <div id="formulario">
@@ -24,6 +24,8 @@
 
                     <label for="iusuario">Usuario:</label>
                     <input type="text" name="usuario" id="iusuario" required>
+
+                    <i class="typcn typcn-eye" id="eye"></i>
 
                     <label for="isenha">Senha:</label>
                     <input type="password" name="Senha" id="isenha" required>
@@ -38,4 +40,18 @@
     </main>
     
 </body>
+
+<script>
+    var pwd = document.getElementById('isenha');
+    var eye = document.getElementById('eye');
+
+eye.addEventListener('click',togglePass);
+
+function togglePass(){
+
+   eye.classList.toggle('active');
+
+   (isenha.type == 'password') ? isenha.type = 'text' : isenha.type = 'password';
+}
+</script>
 </html>
