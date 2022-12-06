@@ -75,6 +75,13 @@ input {
 	width: 100%;
 }
 
+a {
+    color: #444;
+    font-size: .9em;
+    text-decoration: none;
+    margin: auto;
+}
+
 .typcn:before {
     content: '\e06f';
 }
@@ -82,7 +89,7 @@ input {
 .typcn {
     position: absolute;
     left: 195px;
-    top: 264px;
+    top: 225px;
     color: gray;
     font-size: 20px;
     cursor: pointer;
@@ -113,6 +120,13 @@ input#login {
     background: #ff4b2b;
     color: #fff;
     font-weight: bold;
-    padding: 12px 45px;
+    padding: 12px 50px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+input#login:hover {
+    background-color: #e43213;
+    transition: 1s;
+    
 }
