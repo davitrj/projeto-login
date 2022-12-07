@@ -20,7 +20,7 @@
         .typcn {
             position: absolute;
             left: 195px;
-            top: 225px;
+            top: 216px;
             color: gray;
             font-size: 20px;
             cursor: pointer;
@@ -55,9 +55,9 @@
 
     div#imagem  > img#paisagem {
         display: block;
-        width: 551px;
+        width: 523px;
         position: absolute;
-        margin-top: -80px;
+        margin-top: -76px;
 
     }
 
@@ -75,7 +75,7 @@
     .typcn {
         position: absolute;
         left: 798px;
-        top: 225px;
+        top: 216px;
         color: gray;
         font-size: 20px;
         cursor: pointer;
@@ -108,10 +108,9 @@
 
     div#imagem  > img#paisagem {
         display: block;
-        width: 551px;
-        height: px;
+        width: 523px;
         position: absolute;
-        margin-top: -80px;
+        margin-top: -76px;
 
     }
 
@@ -128,7 +127,7 @@
     .typcn {
         position: absolute;
         left: 798px;
-        top: 225px;
+        top: 216px;
         color: gray;
         font-size: 20px;
         cursor: pointer;
