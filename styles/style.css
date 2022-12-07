@@ -15,7 +15,7 @@
 }
 
 body, html {
-    background-image: url(../imagens/back1.jpg);
+    background-image: url(../imagens/back2_Mesa\ de\ trabajo\ 1.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -55,6 +55,7 @@ div#formulario {
 }
 
 div#formulario > h1 {
+    color: #006970;
     padding: 2px 0 20px 0;
     text-align: center;
     font-size: 2em;
@@ -82,13 +83,13 @@ a {
 }
 
 a:hover {
-    color: #ff4b2b;
+    color: #005c63;
 }
 
 input#login {
     border-radius: 10px;
-    border: 1px solid #ff4b2b;
-    background: #ff4b2b;
+    border: 1px solid #006970;
+    background: #006970;
     color: #fff;
     font-weight: bold;
     padding: 10px 50px;
@@ -98,7 +99,7 @@ input#login {
 }
 
 input#login:hover {
-    background-color: #e43213;
+    background-color: #005c63;
     transition: 1s;
     
 }
