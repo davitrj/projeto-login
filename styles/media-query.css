@@ -12,12 +12,45 @@
         position: fixed;
         filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.514));
         }
+
+        .typcn:before {
+            content: '\e06f';
+        }
+        
+        .typcn {
+            position: absolute;
+            left: 195px;
+            top: 225px;
+            color: gray;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .typcn.active {
+            color: #ff4b2b;
+          }
+        
+        .typcn:before {
+            font-family: 'typicons';
+            font-style: normal;
+            font-weight: normal;
+            speak-as: none;
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            height: 1em;
+            font-size: 1em;
+            text-align: center;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
         
 }
 
 @media screen and (min-width: 851px) and (max-width: 992px) {
     section#login {
-        width: 90vw;
+        width: 850px;
+        
     }
 
     div#imagem  > img#paisagem {
@@ -31,7 +64,40 @@
     div#formulario {
         float: right;
         max-width: 50%;
+        width: 90vw;
         height: 100%;
+    }
+
+    .typcn:before {
+        content: '\e06f';
+    }
+    
+    .typcn {
+        position: absolute;
+        left: 798px;
+        top: 225px;
+        color: gray;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .typcn.active {
+        color: #ff4b2b;
+      }
+    
+    .typcn:before {
+        font-family: 'typicons';
+        font-style: normal;
+        font-weight: normal;
+        speak-as: none;
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        height: 1em;
+        font-size: 1em;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
     }
 }
 
@@ -53,5 +119,37 @@
     float: right;
     width: 50%;
     height: 100%;
+    }
+
+    .typcn:before {
+        content: '\e06f';
+    }
+    
+    .typcn {
+        position: absolute;
+        left: 798px;
+        top: 225px;
+        color: gray;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .typcn.active {
+        color: #ff4b2b;
+      }
+    
+    .typcn:before {
+        font-family: 'typicons';
+        font-style: normal;
+        font-weight: normal;
+        speak-as: none;
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        height: 1em;
+        font-size: 1em;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
     }
 }

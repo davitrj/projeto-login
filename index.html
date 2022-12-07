@@ -22,11 +22,11 @@
                 <p>Seja bem vindo!</p>
                 <form action="login.php" method="post">
 
-                    <input type="text" name="usuario" id="iusuario" required placeholder="Usuário">
+                    <input type="text" name="usuario" id="iusuario" required placeholder="Usuário" maxlength="8">
 
                     <i class="typcn typcn-eye" id="eye"></i>
 
-                    <input type="password" name="Senha" id="isenha" required placeholder="Senha">
+                    <input type="password" name="Senha" id="isenha" required placeholder="Senha" minlength="8" maxlength="16">
                     <center><a href="#" target="_blank">Esqueceu sua senha?</a></center>
 
                     <input id="login" type="submit" value="Login">

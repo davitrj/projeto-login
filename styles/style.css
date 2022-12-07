@@ -41,7 +41,7 @@ section#login {
     width: 250px;
     height: 400px;
     left: 50%;
-    top: 58%;
+    top: 55%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
     transition: width .3s, height .3s;
@@ -82,36 +82,8 @@ a {
     margin: auto;
 }
 
-.typcn:before {
-    content: '\e06f';
-}
-
-.typcn {
-    position: absolute;
-    left: 195px;
-    top: 225px;
-    color: gray;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.typcn.active {
+a:hover {
     color: #ff4b2b;
-  }
-
-  .typcn:before {
-    font-family: 'typicons';
-    font-style: normal;
-    font-weight: normal;
-    speak-as: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    height: 1em;
-    font-size: 1em;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
 }
 
 input#login {
